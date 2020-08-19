@@ -1,0 +1,98 @@
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff00f;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #000;
+}
+
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-item{
+    padding-left: 1rem;
+}
+
+#welcome{
+    position:relative ;
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    text-shadow: 5px 5px 5px green;
+
+}
+
+.dark-overlay{
+    background: rgba(0,0,0,0.5);
+    position:absolute ;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+ #welcome .display-3{
+    font-weight: 600;
+    color:blue;
+}
+#welcome .display-5{
+    font-weight: 600;
+    color:tomato;
+}
+
+
+.dish{
+    font-weight: 700;
+}
+
+.service{
+    font-weight: 700;
+}
+
+#servicesection{
+    background-image: url(img/meet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#servicesection .fa{
+    color: green;
+}
+
+#aboutus{
+    background-image: url(img/bg.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    height:300px ;
+}
+
+ .dark-overlay{
+        background: rgba(0,0,0,0.5);
+        position:absolute ;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+
+
+    @media (max-width:480px){
+        #specialrecipe .col-md-6 .card{
+            padding-bottom: 50px;
+        }
+    }
+    
+    
+    
+
+
